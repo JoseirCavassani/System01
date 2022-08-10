@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <link rel="stylesheet" href="css/login-style.css" />
+    <title>System - Login</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="content">
+        <img
+          src="img/logo.png"
+          alt=""
+          width="150px"
+          height="150px"
+          class="img-login"
+        />
+        <h1 class="title">Login</h1>
+        <form action="home.html" class="form-login">
+          <label for="loginEmail" class="label-login">EMAIL</label>
+          <input
+            type="email"
+            placeholder="your@email.com"
+            class="input-login"
+            name="loginEmail"
+            required
+            autocomplete="on"
+          />
+          <label for="loginPassword" class="label-login">PASSWORD</label>
+
+          <input
+            type="password"
+            placeholder="*****"
+            class="input-login"
+            name="loginPassword"
+            required
+          />
+          <div class="reset-register-box">
+            <a href="forgot.html">Forgot your password?</a>
+            <a href="#">Register</a>
+          </div>
+          <button class="btn-login" type="submit">LOGIN</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/forgot-style.css" />
+    <title>System - Forgot</title>
+  </head>
+  <body>
+    <main class="main">
+      <img
+        src="img/logo.png"
+        alt=""
+        width="150px"
+        height="150px"
+        class="img-login"
+      />
+
+      <section class="content">
+        <h1 class="title">Register</h1>
+        <form action="home.html" method="post" class="form-forgot">
+          <label for="name" class="label-forgot">Your Name</label>
+          <input
+            type="text"
+            name="Name"
+            class="input-register"
+            placeholder="Full name"
+            required
+          />
+          <label for="email" class="label-forgot">Your email</label>
+
+          <input
+            type="email"
+            name="email"
+            class="input-register"
+            placeholder="email@email.com"
+            required
+          />
+          <label for="date" class="label-forgot">Date of birthday</label>
+
+          <input type="date" name="date" class="input-register" required />
+          <label for="passaword1" class="label-forgot">Your password</label>
+
+          <input
+            type="password"
+            name="passaword1"
+            class="input-register"
+            placeholder="*****"
+            required
+          />
+          <label for="name" class="label-forgot">Confirm your password</label>
+
+          <input
+            type="password"
+            name="password2"
+            class="input-register"
+            placeholder="*****"
+            required
+          />
+          <button type="submit" class="btn-register">Register</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
