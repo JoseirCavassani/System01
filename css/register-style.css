@@ -10,19 +10,16 @@
 body {
   background-color: var(--background-color);
   height: 100vh;
-  width: 100vw;
-  font-size: 140%;
+  font-size: 100%;
 }
 .main {
   display: flex;
-  flex-direction: column;
-  align-content: center;
+  justify-content: space-around;
   align-items: center;
-  padding: 10px;
-  background-color: var(--background-color);
-  width: 100%;
+  flex-direction: column;
+  margin-top: 20px;
 }
-.img-login {
+.img-logo {
   width: 150px;
 }
 .content {
@@ -37,27 +34,23 @@ body {
 .title {
   font-family: var(--font-family);
   font-weight: 300;
-  font-size: 45px;
+  font-size: 40px;
   color: var(--color-grey);
   text-transform: uppercase;
 }
-.form-forgot {
-  margin-top: 30px;
-
+.form-register {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
-  flex-direction: column;
-  align-content: center;
   align-items: center;
   gap: 5px;
-  padding: 10px;
+  padding: 5px;
   width: 300px;
   height: 100vh;
-
   background-color: var(--background-color);
   font-family: var(--font-family);
 }
-.label-forgot {
+.label-register {
   text-align: left;
   width: 100%;
   font-family: var(--font-family);

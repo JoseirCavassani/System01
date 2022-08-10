@@ -12,14 +12,12 @@
 body {
   background-color: var(--background-color);
   height: 100vh;
-  width: 100vw;
+  font-size: 100%;
 }
 .main {
   display: flex;
   justify-content: space-around;
-  background-image: var(--background-color);
-  width: 100vw;
-  height: 100vh;
+  margin-top: 20px;
 }
 .content {
   display: flex;
@@ -27,16 +25,17 @@ body {
   justify-content: space-evenly;
   flex-direction: column;
   background-color: var(--background-color);
-  padding: 15px;
+  padding: 10px;
 }
-.img-login {
-  background-color: var(--background-color);
+.img-logo {
+  width: 150px;
+  height: 150px;
 }
 .title {
   background-color: var(--background-color);
   font-family: var(--font-family);
   font-size: 40px;
-  font-weight: 200;
+  font-weight: 300;
   color: var(--font-color);
   margin-bottom: 35px;
 }
@@ -51,8 +50,8 @@ body {
 .label-login {
   background-color: var(--background-color);
   font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 130%;
   color: var(--font-color);
 }
 .input-login {
@@ -61,15 +60,15 @@ body {
   height: 50px;
   background-color: transparent;
   border-bottom: 1px solid #28282b;
-  font-size: 20px;
+  font-size: 130%;
   padding: 5px;
 }
 .reset-register-box {
   display: flex;
   flex-direction: column;
   background-color: var(--background-color);
-  gap: 30px 30px;
-  margin-top: 35px;
+  gap: 30px;
+  margin-top: 20px;
   padding: 5px;
 }
 a {
@@ -78,22 +77,22 @@ a {
   justify-content: space-around;
   font-family: var(--font-family);
   font-weight: 300;
-  font-size: 20px;
+  font-size: 130%;
   text-decoration: none;
   color: var(--font-color);
   border: 1px solid #28282b;
-  height: 50px;
+  height: 40px;
   background-color: var(--btn-resetForgot);
 }
 .btn-login {
   border: none;
   font-family: var(--font-family);
-  font-size: 20px;
+  font-size: 130%;
   font-weight: 300;
   color: var(--font-color-btn);
   background-color: var(--background-color-btn);
-  height: 60px;
-  margin-top: 35px;
+  height: 50px;
+  margin-top: 10px;
 }
 .btn-login:hover {
   transform: scale(1.1);
