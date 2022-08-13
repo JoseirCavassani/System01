@@ -1,9 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
-
 :root {
-  --background-color: rgb(50, 50, 50);
-  --font-family: "Rajdhani", sans-serif;
-  --font-color: rgb(245, 245, 245);
   --background-color-btn: #0d7377;
   --background-color-btn-hover: rgba(13, 115, 119, 0.6);
   --font-color-btn: rgb(245, 245, 245);
